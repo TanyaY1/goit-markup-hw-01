@@ -2,44 +2,43 @@ body {
     font-family: "Roboto", sans-serif;
     background-color: #fff;
     color: #434455;
+    margin: 0;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 ul,
 li {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 button {
     cursor: pointer;
     font-family: "Roboto", sans-serif;
 }
+
 /* #region header */
 .header {
 
 }
 
 .logo-header {
-    font-style: normal;
-    color: #2e2f42;
-}
-
-.logo-style {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    font-style: normal;
-    color: #2e2f42;
+    color: #4d5ae5;
+    text-decoration: none;
 }
 
-.header-nav {
-
+.logo-style {
+    color: #2e2f42;
 }
 
 .item-nav-link {
@@ -60,11 +59,7 @@ button {
     font-style: normal;
 }
 
-.address-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
+.address-list {}
 
 .item-address-link {
     font-weight: 400;
@@ -88,12 +83,12 @@ button {
 }
 
 .hero-title {
-   font-weight: 700;
-   font-size: 56px;
-   line-height: 1.07;
-   letter-spacing: 0.02em;
-   text-align: center;
-   color: #fff;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
 }
 
 .hero-btn {
@@ -103,22 +98,20 @@ button {
     letter-spacing: 0.04em;
     color: #fff;
     background-color: #4d5ae5;
+    border: none;
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
-   color: #fff;
-   background-color: #404bbf;
+    color: #fff;
+    background-color: #404bbf;
 }
+
 /* #endregion hero */
 
 /* #region Features */
 .features {
     background-color: #fff;
-}
-
-.features{
-
 }
 
 .features-item-title {
@@ -136,10 +129,10 @@ button {
     letter-spacing: 0.02em;
     color: #434455;
 }
+
 /* #endregion Features */
 
 /* #region Team */
-
 .team {
     background-color: #f4f4fd;
 }
@@ -155,20 +148,12 @@ button {
 }
 
 .team-list {
-    list-style: none;
-    padding: 0;
     display: flex;
     justify-content: center;
-    gap: 24px;
-    
 }
 
 .team-list-title {
     background-color: #FFFFFF;
-
-    padding: 16px;
-    border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
@@ -205,10 +190,6 @@ button {
     text-align: center;
     color: #2e2f42;
 }
-
-.portfolio-list {}
-
-.portfolio-list-title {}
 
 .portfolio-item-title {
     font-weight: 500;
