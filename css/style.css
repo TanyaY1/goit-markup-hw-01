@@ -1,7 +1,7 @@
 body {
     font-family: "Roboto", sans-serif;
     background-color: #fff;
-    color: #2e2f42;
+    color: #434455;
 }
 
 a {
@@ -24,18 +24,21 @@ button {
 }
 
 .logo-header {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.16;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-}
-
-.logo-style {
     font-style: normal;
     color: #2e2f42;
 }
+
+.logo-style {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    font-style: normal;
+    color: #2e2f42;
+}
+
 .header-nav{
 
 }
@@ -52,6 +55,11 @@ button {
 .item-nav-link:focus {
     color: #404bbf ;
 }
+
+.address-header {
+    font-style: normal;
+}
+
 .address-lis{
 
 }
@@ -126,6 +134,44 @@ button {
 }
 /* #endregion Features */
 
+/* #region Team */
+
+.team {}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.team-list {}
+
+.team-list-title {}
+
+.team-item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.team-item-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+}
+
+/* #endregion Team */
+
 /* #region Portfolio */
 .portfolio {}
 
@@ -134,6 +180,7 @@ button {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
 }
@@ -166,17 +213,19 @@ button {
 }
 
 .logo-footer {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;   
+    font-style: normal;
+    color: #2e2f42;
 }
 
 .logo-style {
     font-style: normal;
-    color: #2e2f42;
+    color: #f4f4fd;
 }
 
 .footer-item-text {
