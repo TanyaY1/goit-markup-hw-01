@@ -6,6 +6,7 @@ body {
 
 a {
     text-decoration: none;
+    cursor: pointer;
 }
 
 ul,
@@ -28,14 +29,13 @@ button {
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
-    letter-spacing: 0.03e;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    display: block;
     text-decoration: none;
 }
 
-.logo-style {
+span.logo-style {
     color: #2e2f42;
 }
 
@@ -54,6 +54,7 @@ button {
 .item-nav-link:hover,
 .item-nav-link:focus {
     color: #404bbf;
+    cursor: pointer;
 }
 
 .address-header {
@@ -186,6 +187,7 @@ button {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
     color: #2e2f42;}
 
 .portfolio-list {}
@@ -220,12 +222,10 @@ button {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    font-style: normal;
     color: #4d5ae5;
 }
 
-.logo-style {
-    font-style: normal;
+.logo-style-footer {
     color: #f4f4fd;
 }
 
