@@ -95,7 +95,7 @@ span.logo_style {
     letter-spacing: 0.04em;
     color: #fff;
     background-color: #4d5ae5;
-    border: none;
+
 }
 
 .hero-btn:hover,
@@ -146,7 +146,7 @@ span.logo_style {
 
 .team-list {
     display: flex;
-    justify-content: center;
+    
 }
 
 .team-list-title {
