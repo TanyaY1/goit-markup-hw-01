@@ -20,9 +20,7 @@ button {
 
 /* #region header */
 
-.header {
-
-}
+.header {}
 
 .logo-header {
     font-family: "Raleway", sans-serif;
@@ -35,7 +33,7 @@ button {
     text-decoration: none;
 }
 
-span.logo-style {
+span.logo_style {
     color: #2e2f42;
 }
 
