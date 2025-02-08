@@ -140,13 +140,11 @@ span.logo_style {
 }
 
 .team-list {
-    display: flex;
     text-align: center;
 }
 
 .team-list-title {
     background-color: #FFFFFF;
-    display: inline-block;
 }
 
 .team-item-title {
